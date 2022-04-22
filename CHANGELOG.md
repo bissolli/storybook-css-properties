@@ -1,3 +1,15 @@
+# v0.0.7 (Fri Apr 22 2022)
+
+#### ⚠️ Pushed to `main`
+
+- chore: add logs to debug ([@bissolli](https://github.com/bissolli))
+
+#### Authors: 1
+
+- Gustavo Bissolli ([@bissolli](https://github.com/bissolli))
+
+---
+
 # v0.0.6 (Fri Apr 22 2022)
 
 #### ⚠️ Pushed to `main`
