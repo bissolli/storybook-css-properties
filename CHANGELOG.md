@@ -1,3 +1,15 @@
+# v0.0.8 (Fri Apr 22 2022)
+
+#### ⚠️ Pushed to `main`
+
+- fix: component match ([@bissolli](https://github.com/bissolli))
+
+#### Authors: 1
+
+- Gustavo Bissolli ([@bissolli](https://github.com/bissolli))
+
+---
+
 # v0.0.7 (Fri Apr 22 2022)
 
 #### ⚠️ Pushed to `main`
