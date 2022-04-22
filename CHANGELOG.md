@@ -1,3 +1,15 @@
+# v0.0.2 (Fri Apr 22 2022)
+
+#### ⚠️ Pushed to `main`
+
+- refactor: add support to storybook 6.5.* ([@bissolli](https://github.com/bissolli))
+
+#### Authors: 1
+
+- Gustavo Bissolli ([@bissolli](https://github.com/bissolli))
+
+---
+
 # v0.0.1 (Fri Apr 22 2022)
 
 #### ⚠️ Pushed to `main`
