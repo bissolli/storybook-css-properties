@@ -1,3 +1,16 @@
+# v0.0.6 (Fri Apr 22 2022)
+
+#### ⚠️ Pushed to `main`
+
+- fix: export empty decorators ([@bissolli](https://github.com/bissolli))
+- fix: add empty preview back ([@bissolli](https://github.com/bissolli))
+
+#### Authors: 1
+
+- Gustavo Bissolli ([@bissolli](https://github.com/bissolli))
+
+---
+
 # v0.0.5 (Fri Apr 22 2022)
 
 #### ⚠️ Pushed to `main`
