@@ -1,3 +1,16 @@
+# v0.0.5 (Fri Apr 22 2022)
+
+#### ⚠️ Pushed to `main`
+
+- revert: use storybook v6.5 ([@bissolli](https://github.com/bissolli))
+- test: use storybook v6.5 ([@bissolli](https://github.com/bissolli))
+
+#### Authors: 1
+
+- Gustavo Bissolli ([@bissolli](https://github.com/bissolli))
+
+---
+
 # v0.0.4 (Fri Apr 22 2022)
 
 #### ⚠️ Pushed to `main`
