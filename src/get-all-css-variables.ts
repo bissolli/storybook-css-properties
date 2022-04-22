@@ -3,7 +3,7 @@ export interface IItem  {key: string, name: string, value: string, type: string}
 const cssKeyToJsKey = (key: string) =>
 key.replace('--', '').replace(/-./g, (x) => x.toUpperCase()[1]);
 
-const getAllCSSVariableNames = (styleSheets: StyleSheetList = document.styleSheets) => {
+const getAllCSSVariableNames = (styleSheets: StyleSheetList) => {
   const cssVars: string[] = [];
 
   Array.from(styleSheets).forEach((styleSheet) => {
@@ -58,6 +58,5 @@ const getElementCSSVariables = (
 
   export const getAllCSSVariables = (storyDocument: Document): IItem[] => {
     const cssVars = getAllCSSVariableNames(storyDocument.styleSheets);
-
     return getElementCSSVariables(cssVars, storyDocument.documentElement);
   };

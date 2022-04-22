@@ -22,7 +22,7 @@ export const Panel: React.FC<PanelProps> = (props) => {
   const [cssVars, setCssVars] = useState([]);
   const [iframePreview, setIframePreview] = useState<HTMLIFrameElement>(null);
 
-  setTimeout(() => {getIframe(setIframePreview)}, 1000)
+  setTimeout(() => {getIframe(setIframePreview)}, 3000)
 
   useEffect(() => {
     if (!iframePreview) return
