@@ -1,3 +1,15 @@
+# v0.0.10 (Fri Apr 22 2022)
+
+#### ⚠️ Pushed to `main`
+
+- fix: issue sync iframe ([@bissolli](https://github.com/bissolli))
+
+#### Authors: 1
+
+- Gustavo Bissolli ([@bissolli](https://github.com/bissolli))
+
+---
+
 # v0.0.9 (Fri Apr 22 2022)
 
 #### ⚠️ Pushed to `main`
