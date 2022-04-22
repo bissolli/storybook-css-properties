@@ -43,12 +43,14 @@ export const PanelContent: React.FC<PanelContentProps> = ({
     changeHanlder('', '')
   }, [debouncedValue])
 
-  const inputComponenet = (obj: IItem) => {
+  const inputComponenet = (obj: IItem, index: number) => {
+    const fieldName = `css-props-input-${index}`
+
     if (obj.type === 'color') {
       return (
         <ColorControl
+          name={fieldName}
           value={obj.value}
-          name={obj.name}
           onChange={(value) => changeHanlder(value, obj.key)}
         />
       )
@@ -56,21 +58,21 @@ export const PanelContent: React.FC<PanelContentProps> = ({
 
     return (
       <TextControl
-        name={obj.name}
-        onChange={(value) => changeHanlder(value, obj.key)}
+        name={fieldName}
         value={obj.value}
+        onChange={(value) => changeHanlder(value, obj.key)}
       />
     )
   }
 
   return (
     <div style={styles.wrapper}>
-      {properties.map((obj) =>
+      {properties.map((obj, index) =>
         <div key={obj.name} style={styles.line}>
           <div style={styles.title}>
             {obj.key}
           </div>
-          {inputComponenet(obj)}
+          {inputComponenet(obj, index)}
         </div>
       )}
     </div>
