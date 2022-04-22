@@ -1,9 +1,13 @@
 {
   "name": "@bissolli/storybook-css-properties",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "This addon allows you to customize the CSS Properties of your project",
   "keywords": [
-    "storybook-addons", "style", "debug", "layout", "css"
+    "storybook-addons",
+    "style",
+    "debug",
+    "layout",
+    "css"
   ],
   "storybook": {
     "displayName": "CSS Custom Properties",
