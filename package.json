@@ -1,10 +1,17 @@
 {
   "name": "storybook-addon-css-properties",
   "version": "0.0.0",
-  "description": "This addon allows you to customize the CSS Properties of you project",
+  "description": "This addon allows you to customize the CSS Properties of your project",
   "keywords": [
-    "storybook", "addons", "css", "custom", "css properties", "css variables", "storybook-addons"
+    "storybook", "addons", "css", "custom", "css properties", "css variables", "css custom variables", "storybook-addons"
   ],
+  "storybook": {
+    "displayName": "CSS Custom Properties",
+    "supportedFrameworks": [
+      "react", "vue", "angular", "web-components", "ember", "html", "svelte", "preact", "react-native"
+    ],
+    "icon": "https://user-images.githubusercontent.com/321738/63501763-88dbf600-c4cc-11e9-96cd-94adadc2fd72.png"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/bissolli/storybook-css-properties"
@@ -77,12 +84,5 @@
   },
   "publishConfig": {
     "access": "public"
-  },
-  "storybook": {
-    "displayName": "Custom CSS Properties",
-    "supportedFrameworks": [
-      "react", "vue", "angular", "web-components", "ember", "html", "svelte", "preact", "react-native"
-    ],
-    "icon": "https://user-images.githubusercontent.com/321738/63501763-88dbf600-c4cc-11e9-96cd-94adadc2fd72.png"
   }
 }

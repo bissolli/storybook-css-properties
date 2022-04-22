@@ -1,20 +1,20 @@
 import React from "react";
-import { Button } from "./Button";
+import { Text } from "./Text";
 
 export default {
-  title: "Example/Button",
-  component: Button,
+  title: "Example/Text",
+  component: Text,
 };
 
-const Template = (args) => <Button {...args} />;
+const Template = (args) => <Text {...args} />;
 
 export const Primary = Template.bind({});
 Primary.args = {
   primary: true,
-  label: "Button",
+  label: "Text",
 };
 
 export const Secondary = Template.bind({});
 Secondary.args = {
-  label: "Button",
+  label: "Text",
 };

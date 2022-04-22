@@ -1,35 +1,39 @@
-import React from "react";
-import { useAddonState, useChannel } from "@storybook/api";
+import React, { useState, useEffect } from "react";
 import { AddonPanel } from "@storybook/components";
-import { ADDON_ID, EVENTS } from "./constants";
 import { PanelContent } from "./components/PanelContent";
+import { getAllCSSVariables } from "./get-all-css-variables";
 
 interface PanelProps {
   active: boolean;
 }
 
-export const Panel: React.FC<PanelProps> = (props) => {
-  // https://storybook.js.org/docs/react/addons/addons-api#useaddonstate
-  const [results, setState] = useAddonState(ADDON_ID, {
-    danger: [],
-    warning: [],
-  });
+const getIframe = (setIframePreview: React.Dispatch<React.SetStateAction<HTMLIFrameElement>>) => {
+  const iframePreview = document.getElementById('storybook-preview-iframe') as HTMLIFrameElement
 
-  // https://storybook.js.org/docs/react/addons/addons-api#usechannel
-  const emit = useChannel({
-    [EVENTS.RESULT]: (newResults) => setState(newResults),
-  });
+  if (!iframePreview) {
+    setTimeout(() => getIframe(setIframePreview), 1000)
+    return
+  }
+
+  setIframePreview(iframePreview)
+}
+
+export const Panel: React.FC<PanelProps> = (props) => {
+  const [cssVars, setCssVars] = useState([]);
+  const [iframePreview, setIframePreview] = useState<HTMLIFrameElement>(null);
+
+  setTimeout(() => {getIframe(setIframePreview)}, 1000)
+
+  useEffect(() => {
+    if (!iframePreview) return
+    const variables = getAllCSSVariables(iframePreview.contentWindow.document)
+    setCssVars(variables)
+  }, [iframePreview])
 
   return (
     <AddonPanel {...props}>
       <PanelContent
-        results={results}
-        fetchData={() => {
-          emit(EVENTS.REQUEST);
-        }}
-        clearData={() => {
-          emit(EVENTS.CLEAR);
-        }}
+        cssProperties={cssVars}
       />
     </AddonPanel>
   );

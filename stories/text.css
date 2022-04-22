@@ -1,0 +1,16 @@
+:root {
+  --font-size: 16px;
+  --font-weight-bold: 'bold';
+}
+
+.storybook-text {
+  font-family: "Nunito Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: var(--font-weight-bold);
+  font-size: var(--font-size);
+}
+.storybook-text--primary {
+  color: var(--color-primary);
+}
+.storybook-text--secondary {
+  color: var(--color-secondary);
+}
