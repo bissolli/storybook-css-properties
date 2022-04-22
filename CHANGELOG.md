@@ -1,3 +1,15 @@
+# v0.0.4 (Fri Apr 22 2022)
+
+#### ⚠️ Pushed to `main`
+
+- fix: remove empty preview ([@bissolli](https://github.com/bissolli))
+
+#### Authors: 1
+
+- Gustavo Bissolli ([@bissolli](https://github.com/bissolli))
+
+---
+
 # v0.0.3 (Fri Apr 22 2022)
 
 #### ⚠️ Pushed to `main`
