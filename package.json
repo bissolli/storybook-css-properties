@@ -3,14 +3,7 @@
   "version": "0.0.10",
   "description": "This addon allows you to customize the CSS Properties of your project",
   "keywords": [
-    "storybook",
-    "addons",
-    "css",
-    "custom",
-    "css properties",
-    "css variables",
-    "css custom variables",
-    "storybook-addons"
+    "storybook-addons", "style", "debug", "layout", "css"
   ],
   "storybook": {
     "displayName": "CSS Custom Properties",
@@ -31,7 +24,7 @@
     "type": "git",
     "url": "https://github.com/bissolli/storybook-css-properties"
   },
-  "author": "Gustavo Bissolli <gustavo.bissolli@gmail.com>",
+  "author": "Gustavo Bissolli",
   "license": "MIT",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
