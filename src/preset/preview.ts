@@ -1,1 +1,5 @@
-export const decorators: any[] = [];
+export const parameters = {
+  controls: {
+    matchers: {},
+  },
+}

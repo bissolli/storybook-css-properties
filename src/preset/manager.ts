@@ -5,8 +5,6 @@ import { Panel } from "../Panel";
 // Register the addon
 addons.register(ADDON_ID, () => {
 
-  console.log('registering panel')
-
   // Register the panel
   addons.add(PANEL_ID, {
     type: types.PANEL,

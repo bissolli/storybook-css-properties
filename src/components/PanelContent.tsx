@@ -10,7 +10,6 @@ interface PanelContentProps {
 export const PanelContent: React.FC<PanelContentProps> = ({
   cssProperties
 }) => {
-  console.log('vars in the panelcontent ', cssProperties)
   const properties = [...cssProperties]
   const [key, setKey] = useState<string>('')
   const [value, setValue] = useState<string>('')
