@@ -1,3 +1,15 @@
+# v0.0.11 (Fri Apr 22 2022)
+
+#### ⚠️ Pushed to `main`
+
+- chore: update tags ([@bissolli](https://github.com/bissolli))
+
+#### Authors: 1
+
+- Gustavo Bissolli ([@bissolli](https://github.com/bissolli))
+
+---
+
 # v0.0.10 (Fri Apr 22 2022)
 
 #### ⚠️ Pushed to `main`
