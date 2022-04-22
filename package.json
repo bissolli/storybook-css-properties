@@ -81,11 +81,11 @@
     "zx": "^1.14.1"
   },
   "peerDependencies": {
-    "@storybook/addons": "^6.4.0 || ^6.5.0",
-    "@storybook/api": "^6.4.0 || ^6.5.0",
-    "@storybook/components": "^6.4.0 || ^6.5.0",
-    "@storybook/core-events": "^6.4.0 || ^6.5.0",
-    "@storybook/theming": "^6.4.0 || ^6.5.0",
+    "@storybook/addons": "^6.4.0 || ^6.5.0 || ^6.5.0-alpha",
+    "@storybook/api": "^6.4.0 || ^6.5.0 || ^6.5.0-alpha",
+    "@storybook/components": "^6.4.0 || ^6.5.0 || ^6.5.0-alpha",
+    "@storybook/core-events": "^6.4.0 || ^6.5.0 || ^6.5.0-alpha",
+    "@storybook/theming": "^6.4.0 || ^6.5.0 || ^6.5.0-alpha",
     "react": "^16.8.0 || ^17.0.0 || ^18.0.0",
     "react-dom": "^16.8.0 || ^17.0.0 || ^18.0.0"
   },

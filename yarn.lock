@@ -1804,7 +1804,7 @@
     "prop-types" "^15.7.2"
     "regenerator-runtime" "^0.13.7"
 
-"@storybook/addons@^6.4.0":
+"@storybook/addons@^6.4.0 || ^6.5.0 || ^6.5.0-alpha":
   "integrity" "sha512-P/R+Jsxh7pawKLYo8MtE3QU/ilRFKbtCewV/T1o5U/gm8v7hKQdFz3YdRMAra4QuCY8bQIp7MKd2HrB5aH5a1A=="
   "resolved" "https://registry.npmjs.org/@storybook/addons/-/addons-6.4.22.tgz"
   "version" "6.4.22"
@@ -1838,7 +1838,7 @@
     "global" "^4.4.0"
     "regenerator-runtime" "^0.13.7"
 
-"@storybook/api@^6.4.0", "@storybook/api@6.4.22":
+"@storybook/api@^6.4.0 || ^6.5.0 || ^6.5.0-alpha", "@storybook/api@6.4.22":
   "integrity" "sha512-lAVI3o2hKupYHXFTt+1nqFct942up5dHH6YD7SZZJGyW21dwKC3HK1IzCsTawq3fZAKkgWFgmOO649hKk60yKg=="
   "resolved" "https://registry.npmjs.org/@storybook/api/-/api-6.4.22.tgz"
   "version" "6.4.22"
@@ -2044,7 +2044,7 @@
     "core-js" "^3.8.2"
     "global" "^4.4.0"
 
-"@storybook/components@^6.4.0":
+"@storybook/components@^6.4.0 || ^6.5.0 || ^6.5.0-alpha":
   "integrity" "sha512-dCbXIJF9orMvH72VtAfCQsYbe57OP7fAADtR6YTwfCw9Sm1jFuZr8JbblQ1HcrXEoJG21nOyad3Hm5EYVb/sBw=="
   "resolved" "https://registry.npmjs.org/@storybook/components/-/components-6.4.22.tgz"
   "version" "6.4.22"
@@ -2185,7 +2185,7 @@
     "util-deprecate" "^1.0.2"
     "webpack" "4"
 
-"@storybook/core-events@^6.4.0", "@storybook/core-events@6.4.22":
+"@storybook/core-events@^6.4.0 || ^6.5.0 || ^6.5.0-alpha", "@storybook/core-events@6.4.22":
   "integrity" "sha512-5GYY5+1gd58Gxjqex27RVaX6qbfIQmJxcbzbNpXGNSqwqAuIIepcV1rdCVm6I4C3Yb7/AQ3cN5dVbf33QxRIwA=="
   "resolved" "https://registry.npmjs.org/@storybook/core-events/-/core-events-6.4.22.tgz"
   "version" "6.4.22"
@@ -2490,7 +2490,7 @@
     "ts-dedent" "^2.0.0"
     "util-deprecate" "^1.0.2"
 
-"@storybook/theming@^6.4.0", "@storybook/theming@6.4.22":
+"@storybook/theming@^6.4.0 || ^6.5.0 || ^6.5.0-alpha", "@storybook/theming@6.4.22":
   "integrity" "sha512-NVMKH/jxSPtnMTO4VCN1k47uztq+u9fWv4GSnzq/eezxdGg9ceGL4/lCrNGoNajht9xbrsZ4QvsJ/V2sVGM8wA=="
   "resolved" "https://registry.npmjs.org/@storybook/theming/-/theming-6.4.22.tgz"
   "version" "6.4.22"
