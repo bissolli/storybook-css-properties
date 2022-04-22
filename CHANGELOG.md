@@ -1,3 +1,16 @@
+# v0.0.9 (Fri Apr 22 2022)
+
+#### ⚠️ Pushed to `main`
+
+- chore: package lock sync ([@bissolli](https://github.com/bissolli))
+- fix: input name filed ([@bissolli](https://github.com/bissolli))
+
+#### Authors: 1
+
+- Gustavo Bissolli ([@bissolli](https://github.com/bissolli))
+
+---
+
 # v0.0.8 (Fri Apr 22 2022)
 
 #### ⚠️ Pushed to `main`
