@@ -1,3 +1,16 @@
+# v0.0.14 (Sun Apr 24 2022)
+
+#### ⚠️ Pushed to `main`
+
+- fix: hidden props types ([@bissolli](https://github.com/bissolli))
+- fix: general addon fixes ([@bissolli](https://github.com/bissolli))
+
+#### Authors: 1
+
+- Gustavo Bissolli ([@bissolli](https://github.com/bissolli))
+
+---
+
 # v0.0.13 (Sun Apr 24 2022)
 
 #### ⚠️ Pushed to `main`
