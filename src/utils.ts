@@ -64,7 +64,7 @@ export const tableArgsBuilder = (
         table: {
           category: config?.category ?? categoryMatcher(matchCategory, prop.key),
           defaultValue: {
-            summary: initialValues.find(o => o.key === prop.key).value
+            summary: initialValues.find((o: any) => o.key === prop.key).value
           },
         },
       }
