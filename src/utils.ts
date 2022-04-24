@@ -42,7 +42,7 @@ export const tableArgsBuilder = (
   hiddenProps: ICssCustomPropertiesParams['hiddenParams'],
   matchCategory: ICssCustomPropertiesParams['matchCategory'],
 ) => {
-  return [...sortByKey(properties, 'key')].reduce((acc, prop, index) => {
+  return [...sortByKey(properties, 'key')].reduce((acc, prop) => {
     const config = propsConfig[prop.key]
 
     if (hiddenProps.includes(prop.key)) return acc
@@ -60,7 +60,7 @@ export const tableArgsBuilder = (
         options: config?.options ?? undefined,
         description: config?.description ?? undefined,
         key: prop.key,
-        name: `sta__${index}`,
+        name: prop.key,
         table: {
           category: config?.category ?? categoryMatcher(matchCategory, prop.key),
           defaultValue: {

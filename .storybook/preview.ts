@@ -13,7 +13,7 @@ export const parameters: Parameters = {
         category: 'Button properties'
       },
     },
-    disabled: [
+    hiddenProps: [
       '--color-white',
     ],
     matchCategory: {

@@ -9,6 +9,6 @@ interface ParamProp {
 
 export interface ICssCustomPropertiesParams {
   props?: Record<string, ParamProp>
-  hiddenParams?: string[]
+  hiddenProps?: string[]
   matchCategory?: Record<string, RegExp>
 }

@@ -9,7 +9,7 @@ interface PanelContentProps {
   baseProperties: IItem[],
   propsConfig: ICssCustomPropertiesParams['props']
   matchCategory: ICssCustomPropertiesParams['matchCategory']
-  hiddenProps: ICssCustomPropertiesParams['hiddenParams']
+  hiddenProps: ICssCustomPropertiesParams['hiddenProps']
 }
 
 export const PanelContent: React.FC<PanelContentProps> = ({

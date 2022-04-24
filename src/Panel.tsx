@@ -15,7 +15,7 @@ const setIframePreviewWhenReady = (setIframePreview: React.Dispatch<React.SetSta
   const iframePreview = document.getElementById('storybook-preview-iframe') as HTMLIFrameElement
 
   if (!iframePreview) {
-    setTimeout(() => setIframePreviewWhenReady(setIframePreview), 1000)
+    setTimeout(() => setIframePreviewWhenReady(setIframePreview), 2000)
     return
   }
 
@@ -30,7 +30,7 @@ export const Panel: React.FC<PanelProps> = (props) => {
   const [cssVars, setCssVars] = useState([]);
   const [iframePreview, setIframePreview] = useState<HTMLIFrameElement>(null);
 
-  setTimeout(() => setIframePreviewWhenReady(setIframePreview), 1000)
+  setTimeout(() => setIframePreviewWhenReady(setIframePreview), 2000)
 
   useEffect(() => {
     if (!iframePreview) return
@@ -48,7 +48,7 @@ export const Panel: React.FC<PanelProps> = (props) => {
         baseProperties={cssVars}
         propsConfig={paramData?.props ?? {}}
         matchCategory={paramData?.matchCategory ?? {}}
-        hiddenProps={paramData?.hiddenParams ?? []}
+        hiddenProps={paramData?.hiddenProps ?? []}
       />
     </AddonPanel>
   );
