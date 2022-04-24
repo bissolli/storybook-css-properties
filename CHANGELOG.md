@@ -1,3 +1,15 @@
+# v0.0.13 (Sun Apr 24 2022)
+
+#### ⚠️ Pushed to `main`
+
+- fix: update field name to avoid issue ([@bissolli](https://github.com/bissolli))
+
+#### Authors: 1
+
+- Gustavo Bissolli ([@bissolli](https://github.com/bissolli))
+
+---
+
 # v0.0.12 (Sun Apr 24 2022)
 
 #### ⚠️ Pushed to `main`
