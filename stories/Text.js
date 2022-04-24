@@ -19,7 +19,7 @@ export const Text = ({ primary, label, ...props }) => {
     >
       {label}
     </span>
-  );span
+  );
 };
 
 Text.propTypes = {

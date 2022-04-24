@@ -1,0 +1,19 @@
+:root {
+  --color-danger: #f80b0b;
+  --color-warn: #f6b623;
+  --color-success: #28af60;
+  --color-white: #ffffff;
+
+  --color-primary: #009dff;
+  --color-on-primary: var(--color-white);
+  --color-secondary: #ebeff4;
+  --color-on-secondary: #000000;
+
+  --font-weight: 400;
+  --font-weight-bold: 700;
+  --font-family: "Nunito Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --line-height: 21px;
+
+  --padding-h: 20px;
+  --padding-v: 10px;
+}

@@ -1,37 +1,36 @@
-:root {
-  --color-primary: #1ea7fd;
-  --color-on-primary: #ffffff;
-  --color-secondary: #dadada;
-  --color-on-secondary: #333;
-}
-
 .storybook-button {
-  font-family: "Nunito Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 700;
+  font-family: var(--font-family);
+  font-weight: var(--font-family);
   border: 0;
   border-radius: 3em;
   cursor: pointer;
   display: inline-block;
-  line-height: 1;
+  line-height: var(--line-height);
+  font-size: 14px;
+  padding: var(--padding-v) var(--padding-h);
 }
+
 .storybook-button--primary {
   color: var(--color-on-primary);
   background-color: var(--color-primary);
 }
+
 .storybook-button--secondary {
   color: var(--color-on-secondary);
   background-color: var(--color-secondary);
-  box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 0px 1px inset;
 }
-.storybook-button--small {
-  font-size: 12px;
-  padding: 10px 16px;
+
+.storybook-button--danger {
+  color: var(--color-white);
+  background-color: var(--color-danger);
 }
-.storybook-button--medium {
-  font-size: 14px;
-  padding: 11px 20px;
+
+.storybook-button--success {
+  color: var(--color-white);
+  background-color: var(--color-success);
 }
-.storybook-button--large {
-  font-size: 16px;
-  padding: 12px 24px;
+
+.storybook-button--warn {
+  color: var(--color-white);
+  background-color: var(--color-warn);
 }

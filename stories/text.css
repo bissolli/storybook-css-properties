@@ -1,16 +1,30 @@
 :root {
   --font-size: 16px;
-  --font-weight-bold: 'bold';
 }
 
 .storybook-text {
-  font-family: "Nunito Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: var(--font-weight-bold);
+  font-family: var(--font-family);
+  font-weight: var(--font-weight);
   font-size: var(--font-size);
+  line-height: var(--line-height);
 }
+
 .storybook-text--primary {
   color: var(--color-primary);
 }
+
 .storybook-text--secondary {
   color: var(--color-secondary);
+}
+
+.storybook-text--success {
+  color: var(--color-success);
+}
+
+.storybook-text--danger {
+  color: var(--color-danger);
+}
+
+.storybook-text--warn {
+  color: var(--color-warn);
 }

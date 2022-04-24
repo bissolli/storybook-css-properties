@@ -1,0 +1,36 @@
+import { Meta } from '@storybook/addon-docs';
+
+<Meta title="Introduction" />
+
+
+
+# Storybook Addon - CSS Custom Properties.
+
+For the sake of this demo, the following `preview.ts` files was used:
+
+```ts
+import { Parameters } from '@storybook/api';
+
+// To inject global custom properties
+import '../stories/base.css'
+
+export const parameters: Parameters = {
+  cssCustomProperties: {
+    props: {
+      '--font-size': {
+        description: 'This property is the only one coming from the `Text` component',
+        category: 'Button properties'
+      },
+    },
+    disabled: [
+      '--color-white',
+    ],
+    matchCategory: {
+      color: /color/,
+      typograph: /font/,
+      space: /(space|padding|margin|line-height)/
+    }
+  }
+};
+
+```
