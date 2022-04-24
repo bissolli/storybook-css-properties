@@ -39,7 +39,7 @@ function sortByKey(record: Record<string, any>[], key: string) {
 export const tableArgsBuilder = (
   properties: IItem[],
   propsConfig: ICssCustomPropertiesParams['props'],
-  hiddenProps: ICssCustomPropertiesParams['hiddenParams'],
+  hiddenProps: ICssCustomPropertiesParams['hiddenProps'],
   matchCategory: ICssCustomPropertiesParams['matchCategory'],
 ) => {
   return [...sortByKey(properties, 'key')].reduce((acc, prop) => {
