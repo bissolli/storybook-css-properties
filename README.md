@@ -9,7 +9,7 @@ It will grab all the CSS Custom Properties from our project automatically, cast 
 ![Demo](media/example.gif)
 
 
-## Instalation
+## Installation
 
 Run it in your terminal:
 
